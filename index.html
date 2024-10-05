@@ -9,38 +9,56 @@
 </body>
 <div>
    <header>
-      <h1style="color: red; text-align: center; front-size: 30px;>;Titulo de la pagina</h1>
+     <h1 style="color: aqua;" text-align:center; front-size:30px>titulo de la pagina web</h1>
+     <!--etiqueta de tipo enlace
+     existen tres tipos de enlaces:
+     enlace absoluto-> permite hacer referencia a los recursos que estan dentro
+     enlace relativo-> hace referencia a un recurso que esta dentro del 
+     del documento html
+     enlace a un elemento-> hace referencia a un  elemento del mismo documento donde trabaja mediate contenedores
+     la etiqueta que vamos a utilizar es la etiqueta <a></a>-->
+     <h2>Enlaces:</h2>
+   <ul>
+      <a href="https://youtu.be/UwgVgOxdcnc?si=MhQ94SbO9nate5Hi"target="_blank"><li>Enlace absoluto</li></a>
+      <a href="vistas/contacto.html"><li>Enlace relativo</li></a>
+      <a><li href="#personal">Enlace a un elemento</li></a>
+
+   </ul>
+
    </header>
 </div>
-<section>
 
-   <h2> hoja de vida</h2>
-   <p>Nombre:Kerly Pilco</p>
-   <p>edad: 19</p>
-   <p>profeción: estudiante de desarrollo de software</p>
-   <!--listas
-   exiaten dos tipos de listas ordenadas y desordenadas-->
-   <!--lista desordenada-->
-   <h2>lista desordenada</h2>
-   <ul>
-      <li>Ecuador</li>
-      <li>peru</li>
-      <li>mexico</li>
-   </ul>
-   <!--listas ordenadas-->
-   <h2>listas ordenadas</h2>
-   <ol>
-      <li>independiente</li>
-      <li>liga</li>
-      <li>mushuc runa</li>
-   </ol>
-</section>
-
-<h1 >primera pagina</h1>
-<h2>subtitulos</h2>
-<h3>titulo3</h3>
-   <section>
-      <div></div>
+   <section id="personal">
+      <p>
+         Lorem ipsum dolor sit, amet consectetur 
+         adipisicing elit. Libero quis sapiente voluptates animi, temporibus minus, ea odio ad, eum vitae laboriosam! Labore porro voluptatem veritatis vel facilis mollitia voluptatum laboriosam.
+      </p>
    </section>
+   <!--etiqueta de imagenes-->
+   <section>
+      <h2>Imagenes</h2>
+      <img src="img/images.png" alt="Imagen html" title="Imagenes" width="100px" height="100px">
+   </section>
+   <!--tabla-->
+   <section>
+      <table border="1px solid">
+            <thead>
+               <th>Pais</th>
+               <th>Continente</th>
+               <th>Poblacion</th>
+            </thead>
+            <tbody>
+               <tr>
+               <tr>Eciador</tr>
+               <tr>America</tr>
+               <tr>800000</tr>
+               </tr>
+             </tbody>
+
+      
+      </table>
+   </section>
+
+  
 </body>
 </html>
